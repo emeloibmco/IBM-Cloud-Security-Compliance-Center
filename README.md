@@ -5,7 +5,7 @@
 
 ### Indice
 - [Pre-requisitos](#Pre-requisitos-)
-- [1. CREAR LAS CREDENCIALES](#1. CREAR LAS CREDENCIALES-)
+- [1. CREAR LAS CREDENCIALES](#1.-CREAR-LAS-CREDENCIALES-)
 - [2. instala un colector/recopilador](#2.-instala-un-colector/recopilador-)
 - [3. CREA UN ALCANCE](#3.-CREA-UN-ALCANCE-)
 - [4. PROGRAME UN ESCANEO](#4.-PROGRAME-UN-ESCANEO-)
