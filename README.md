@@ -25,17 +25,19 @@ Volumen de arranque : 50 GB de espacio en disco._
 
 Las credenciales se utilizan para permitir que el recopilador recopile información sobre sus recursos, evalúe sus configuraciones e inicie cualquier corrección necesaria.
 
-En la consola de IBM Cloud, haga clic en el icono Menú Icono de menú > Seguridad y cumplimiento para acceder al Centro de seguridad y cumplimiento.
-En la navegación, haga clic en Configurar> Configuración> Credenciales .
-Haga clic en el icono Nueva credencial .
-Dé a su credencial un nombre y una descripción significativos.
-Seleccione IBM Cloud .
-Seleccione Descubrimiento / Colección .
-Pegue su clave de API en el campo de clave de API de IBM . Para obtener ayuda para crear una clave de API, consulte Descripción de las claves de API .
+ 1. En la consola de IBM Cloud, haga clic en el icono Menú Icono de menú > Seguridad y cumplimiento para acceder al Centro de seguridad y cumplimiento.
+ 2. En la navegación, haga clic en Configurar> Configuración> Credenciales .
+ 3. Haga clic en el icono Nueva credencial .
+ 4. Dé a su credencial un nombre y una descripción significativos.
+ 5. Seleccione IBM Cloud .
+ 6. Seleccione Descubrimiento / Colección .
+ 7. Pegue su clave de API en el campo de clave de API de IBM . Para obtener ayuda para crear una clave de API, consulte Descripción de las claves de API.
+ 
+Nota: Su clave de API debe tener permisos de acceso de lector a los recursos que desea escanear.
 
-Su clave de API debe tener permisos de acceso de lector a los recursos que desea escanear.
-
-Verifique sus actualizaciones y haga clic en Guardar . La credencial se agrega a una lista de credenciales disponibles.
+ 8. Verifique sus actualizaciones y haga clic en Guardar . La credencial se agrega a una lista de credenciales disponibles.
+ ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/paso2.gif)
+ 
 
 ### 2. instala un colector/recopilador
 Un recopilador es un módulo de software empaquetado como una imagen de Docker. Se instala "a la vista" de su entorno, donde puede tener acceso de red a sus recursos de TI. 
