@@ -5,11 +5,11 @@
 
 ### Indice
 - [Pre-requisitos](#Pre-requisitos-)
-- [1.Crear las credenciales](#1.Crear-las-credenciales-)
-- [2.instala un colector/recopilador](#2.instala-un-colector/recopilador-)
-- [3.Crea un alcance](#3.Crea-un-alcance-)
-- [4.Programe un escaneo](#4.Programe-un-Escaneo-)
-- [5.Genere un informe](5.Genere-un-informe-)
+- [Crear las credenciales](#Crear-las-credenciales-)
+- [instala un colector/recopilador](#instala-un-colector/recopilador-)
+- [Crea un alcance](#Crea-un-alcance-)
+- [Programe un escaneo](#Programe-un-Escaneo-)
+- [Genere un informe](#Genere-un-informe-)
 
 ## Pre-requisitos 📋
 
@@ -22,7 +22,7 @@ Perfil de Red Hat Enterprise Linux, CentOS o Ubuntu : cx2-2x4(2 vCPU, 4 GB de RA
 Volumen de arranque : 50 GB de espacio en disco._
 
 
-## 1.Crear las credenciales 🚀
+## Crear las credenciales 🚀
 
 Las credenciales se utilizan para permitir que el recopilador recopile información sobre sus recursos, evalúe sus configuraciones e inicie cualquier corrección necesaria.
 
