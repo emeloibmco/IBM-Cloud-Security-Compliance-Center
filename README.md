@@ -25,15 +25,15 @@ Volumen de arranque : 50 GB de espacio en disco._
 
 Las credenciales se utilizan para permitir que el recopilador recopile información sobre sus recursos, evalúe sus configuraciones e inicie cualquier corrección necesaria.
 
- 1. En la consola de IBM Cloud, haga clic en el icono Menú Icono de menú > Seguridad y cumplimiento para acceder al Centro de seguridad y cumplimiento.
- 2. En la navegación, haga clic en Configurar> Configuración> Credenciales .
+ 1. En la consola de IBM Cloud, haga clic en el icono Menú > Seguridad y cumplimiento para acceder al Centro de seguridad y cumplimiento.
+ 2. En la navegación, haga clic en Configurar> Valores > Credenciales .
  3. Haga clic en el icono Nueva credencial .
  4. Dé a su credencial un nombre y una descripción significativos.
- 5. Seleccione IBM Cloud .
+ 5. Seleccione IBM Cloud.
  6. Seleccione Descubrimiento / Colección .
  7. Pegue su clave de API en el campo de clave de API de IBM . Para obtener ayuda para crear una clave de API, [consulte Descripción de las claves de API](https://cloud.ibm.com/docs/account?topic=account-manapikey).
  
-_Nota: Su clave de API debe tener permisos de acceso de lector a los recursos que desea escanear._
+_Nota: Su clave de API debe tener permisos de acceso de lector a los recursos que desea escanear; la siguiente imagen ejemplifica los pasos 2 a 8._
 
  8. Verifique sus actualizaciones y haga clic en Guardar . La credencial se agrega a una lista de credenciales disponibles.
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/paso2.gif)
