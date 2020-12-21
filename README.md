@@ -139,7 +139,7 @@ _Nota: 10-30 minutos después podra empezar a ver los resultados del escaneo rea
 
 Security and compliance Center le permite exportar los resultados que obtenido en sus diferentes exploraciones, por lo que puede visualizar estos datos en informes detallados en diferentes formatos.
 
-1.Si desea generar un informe o exportar la información,  puede dirigirse a evaluar>exploraciónes y seleccionar la exploración de la que quiere obtener más detalles.
+1.Si desea generar un informe o exportar la información, puede dirigirse a evaluar>exploraciónes y seleccionar la exploración de la que quiere obtener más detalles.
 
 2.Haga clic en el boton "generar informe" se desplegara un menú.
 
