@@ -117,7 +117,7 @@ Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoq
 
 Para descubrir recursos, evaluar su configuración y validar su cumplimiento frente a un perfil predefinido, puede programar un análisis de validación.
 
-1. En la página Análisis> Análisis programados del Centro de seguridad y cumplimiento, haga clic en Programación . Se abre un panel lateral.
+1. En la página Evaluar> Exploraciiones programados del Centro de seguridad y cumplimiento, haga clic en Exploración Programada. Se abre un panel lateral.
 2. Dé a su escaneo un nombre y una descripción significativos.
 3. Seleccione Validación .
 4. Seleccione el alcance que creó en el paso anterior.
