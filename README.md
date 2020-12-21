@@ -97,6 +97,7 @@ _Nota:En la siguiente imagen se ejemplifican los pasos 4 a 8,previamente ya se h
 
 En la página Configurar> Valores> Recopiladores del Centro de seguridad y cumplimiento, haga clic en Aprobar en la fila de la tabla que corresponde al recopilador con el que está trabajando. Debera obtener un resultado como el siguiente :
 
+![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/resultado.png)
 
 ### 3.CREA UN ALCANCE
 
@@ -109,6 +110,8 @@ Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoq
 5. Seleccione las Credenciales que brindan acceso a los recursos que desea escanear.
 6. Haga clic en Siguiente .
 7. Seleccione los grupos de recursos que desea analizar y haga clic en Crear .
+
+ ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasoambito.gif)
 
 ### 4. PROGRAME UN ESCANEO
 
