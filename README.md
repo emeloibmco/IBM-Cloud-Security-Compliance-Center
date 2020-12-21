@@ -21,7 +21,6 @@ _3. VPC y/o VSI con las siguientes especificaciones:
 Perfil de Red Hat Enterprise Linux, CentOS o Ubuntu : cx2-2x4(2 vCPU, 4 GB de RAM y 4 GBPS)
 Volumen de arranque : 50 GB de espacio en disco._
 
-
 ## Crear las credenciales 🚀
 
 Las credenciales se utilizan para permitir que el recopilador recopile información sobre sus recursos, evalúe sus configuraciones e inicie cualquier corrección necesaria.
@@ -39,9 +38,9 @@ _Nota: Su clave de API debe tener permisos de acceso de lector a los recursos qu
  8. Verifique sus actualizaciones y haga clic en Guardar . La credencial se agrega a una lista de credenciales disponibles.
  
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/paso2.gif)
- 
 
 ### Instala un colector/recopilador
+
 Un recopilador es un módulo de software empaquetado como una imagen de Docker. Se instala "a la vista" de su entorno, donde puede tener acceso de red a sus recursos de TI. 
 
    1.En la página Configurar> Configuración> Recopiladores del Centro de seguridad y cumplimiento, haga clic en **Crear**.
