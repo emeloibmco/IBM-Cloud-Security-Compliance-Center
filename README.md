@@ -36,6 +36,7 @@ Las credenciales se utilizan para permitir que el recopilador recopile informaci
 _Nota: Su clave de API debe tener permisos de acceso de lector a los recursos que desea escanear; la siguiente imagen ejemplifica los pasos 2 a 8._
 
  8. Verifique sus actualizaciones y haga clic en Guardar . La credencial se agrega a una lista de credenciales disponibles.
+ 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/paso2.gif)
  
 
@@ -43,10 +44,15 @@ _Nota: Su clave de API debe tener permisos de acceso de lector a los recursos qu
 Un recopilador es un módulo de software empaquetado como una imagen de Docker. Se instala "a la vista" de su entorno, donde puede tener acceso de red a sus recursos de TI. 
 
    1.En la página Configurar> Configuración> Recopiladores del Centro de seguridad y cumplimiento, haga clic en **Crear**.
+   
    2.Dale a tu colecctor un nombre y una descripción significativos. Haga clic en **Crear**.
+   
    3.Descargue el initiate_collector.sh archivo del recopilador que creó.
 
-En la tabla de recopiladores , haga clic en el nombre del recopilador que desea registrar. La fila de la tabla se expande para proporcionar más información. Asegúrese de anotar también la clave de registro para un paso posterior.
+   _Nota: En la tabla de recopiladores , haga clic en el nombre del recopilador que desea registrar. La fila de la tabla se expande para proporcionar más información.          Asegúrese de anotar también la clave de registro para un paso posterior._
+    
+    
+![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasorecopilador.gif)
 
    4. En su terminal, inicie sesión en su máquina virtual usando SSH.
 ```
@@ -54,7 +60,7 @@ _ssh <username>@<hostname_or_IP_address>:_
 
 ```
 
-**Nota**: Si no inicia sesión como usuario root, debe anteponer los siguientes comandos con sudo.
+_**Nota**: Si no inicia sesión como usuario root, debe anteponer los siguientes comandos con sudo._
 
   5. Asegúrese de que la imagen de su sistema operativo esté actualizada. Si está trabajando con Ubuntu, puede ejecutar el siguiente comando.
 
@@ -63,8 +69,9 @@ _ssh <username>@<hostname_or_IP_address>:_
 ```
  6. Instale Docker Compose usando el comando para su sistema operativo. Si está trabajando con Ubuntu, puede usar el siguiente comando.
 
-
+```
 [sudo] apt-get install docker-compose
+```
 
 7. Transfiera el inititate_collector.sharchivo a su máquina virtual y luego cambie los permisos para permitir que se ejecute.
 
@@ -73,15 +80,16 @@ chmod +x initiate_collector.sh
 ```
 8. Instale el recopilador ejecutando el siguiente comando.
 
-
+```
 ./initiate_collector.sh
+```
 
 9. Cuando se le solicite, ingrese la siguiente información:
 
 La ruta de datos de su máquina host. Por ejemplo /root/folder_name/,.
 No, para indicar que no desea ejecutar un escaneo de Nmap.
 
-La clave de registro que anotó cuando descargó el inititate_collector.sharchivo de la interfaz de usuario del servicio.
+La clave de registro que anotó cuando descargó el inititate_collector.sh archivo de la interfaz de usuario del servicio.
 
 En la página Configurar> Configuración> Recopiladores del Centro de seguridad y cumplimiento, haga clic en Aprobar en la fila de la tabla que corresponde al recopilador con el que está trabajando.
 
