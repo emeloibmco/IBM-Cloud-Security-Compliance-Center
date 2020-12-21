@@ -8,7 +8,7 @@
 2. [Crear las credenciales](#Crear-las-credenciales-)
 3. [Instala un colector/recopilador](#Instala-un-colector/recopilador-)
 4. [Crea un alcance](#Crea-un-alcance-)
-5. [Programe un escaneo](#Programe-un-Escaneo-)
+5. [Programe un escaneo](#Programe-un-escaneo-)
 6. [Genere un informe](#Genere-un-informe-)
 
 ## Pre-requisitos 📋
@@ -41,7 +41,7 @@ _Nota: Su clave de API debe tener permisos de acceso de lector a los recursos qu
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/paso2.gif)
  
 
-### instala un colector/recopilador
+### Instala un colector/recopilador
 Un recopilador es un módulo de software empaquetado como una imagen de Docker. Se instala "a la vista" de su entorno, donde puede tener acceso de red a sus recursos de TI. 
 
    1.En la página Configurar> Configuración> Recopiladores del Centro de seguridad y cumplimiento, haga clic en **Crear**.
