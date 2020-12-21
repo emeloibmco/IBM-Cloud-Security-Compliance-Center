@@ -5,11 +5,11 @@
 
 ### Indice
 - [Pre-requisitos](#Pre-requisitos-)
-- [1. Crear las credenciales](#1.-Crear-las-credenciales-)
-- [2. instala un colector/recopilador](#2.-instala-un-colector/recopilador-)
-- [3. Crea un alcance](#3.-Crea-un-alcance-)
-- [4. Programe un escaneo](#4.-Programe-un-Escaneo-)
-- [5. Genere un informe](5.-Genere-un-informe)
+- [1.Crear las credenciales](#1.Crear-las-credenciales-)
+- [2.instala un colector/recopilador](#2.instala-un-colector/recopilador-)
+- [3.Crea un alcance](#3.Crea-un-alcance-)
+- [4.Programe un escaneo](#4.Programe-un-Escaneo-)
+- [5.Genere un informe](5.Genere-un-informe-)
 
 ## Pre-requisitos 📋
 
@@ -22,7 +22,7 @@ Perfil de Red Hat Enterprise Linux, CentOS o Ubuntu : cx2-2x4(2 vCPU, 4 GB de RA
 Volumen de arranque : 50 GB de espacio en disco._
 
 
-## 1. Crear las credenciales 🚀
+## 1.Crear las credenciales 🚀
 
 Las credenciales se utilizan para permitir que el recopilador recopile información sobre sus recursos, evalúe sus configuraciones e inicie cualquier corrección necesaria.
 
@@ -41,7 +41,7 @@ _Nota: Su clave de API debe tener permisos de acceso de lector a los recursos qu
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/paso2.gif)
  
 
-### 2. instala un colector/recopilador
+### 2.instala un colector/recopilador
 Un recopilador es un módulo de software empaquetado como una imagen de Docker. Se instala "a la vista" de su entorno, donde puede tener acceso de red a sus recursos de TI. 
 
    1.En la página Configurar> Configuración> Recopiladores del Centro de seguridad y cumplimiento, haga clic en **Crear**.
@@ -114,7 +114,7 @@ Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoq
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasoambito.gif)
 
-### 4. Programe un escaneo
+### 4.Programe un escaneo
 
 Para descubrir recursos, evaluar su configuración y validar su cumplimiento frente a un perfil predefinido, puede programar un análisis de validación.
 
@@ -133,7 +133,7 @@ _Nota: 10-30 minutos después podra empezar a ver los resultados del escaneo rea
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/final.gif)
 
-### 5. Genere un informe
+### 5.Genere un informe
 
 Security and compliance Center le permite exportar los resultados que obtenido en sus diferentes exploraciones, por lo que puede visualizar estos datos en informes detallados en diferentes formatos.
 
