@@ -5,10 +5,11 @@
 
 ### Indice
 - [Pre-requisitos](#Pre-requisitos-)
-- [1. CREAR LAS CREDENCIALES](#1.-CREAR-LAS-CREDENCIALES-)
+- [1. Crear las credenciales](#1.-Crear-las-credenciales-)
 - [2. instala un colector/recopilador](#2.-instala-un-colector/recopilador-)
-- [3. CREA UN ALCANCE](#3.-CREA-UN-ALCANCE-)
-- [4. PROGRAME UN ESCANEO](#4.-PROGRAME-UN-ESCANEO-)
+- [3. Crea un alcance](#3.-Crea-un-alcance-)
+- [4. Programe un escaneo](#4.-Programe-un-Escaneo-)
+- [5. Genere un informe](5.-Genere-un-informe)
 
 ## Pre-requisitos 📋
 
@@ -21,7 +22,7 @@ Perfil de Red Hat Enterprise Linux, CentOS o Ubuntu : cx2-2x4(2 vCPU, 4 GB de RA
 Volumen de arranque : 50 GB de espacio en disco._
 
 
-## 1. CREAR LAS CREDENCIALES 🚀
+## 1. Crear las credenciales 🚀
 
 Las credenciales se utilizan para permitir que el recopilador recopile información sobre sus recursos, evalúe sus configuraciones e inicie cualquier corrección necesaria.
 
@@ -99,7 +100,7 @@ En la página Configurar> Valores> Recopiladores del Centro de seguridad y cumpl
 
 ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/resultado.png)
 
-### 3.CREA UN ALCANCE
+### 3.Crea un alcance
 
 Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoque de sus escaneos a un entorno, región o incluso recurso específico. Al crear alcances, puede determinar su puntuación de seguridad y cumplimiento en un área específica de su negocio.
 
@@ -113,7 +114,7 @@ Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoq
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasoambito.gif)
 
-### 4. PROGRAME UN ESCANEO
+### 4. Programe un escaneo
 
 Para descubrir recursos, evaluar su configuración y validar su cumplimiento frente a un perfil predefinido, puede programar un análisis de validación.
 
