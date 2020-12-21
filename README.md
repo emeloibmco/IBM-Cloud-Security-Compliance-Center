@@ -16,25 +16,26 @@ Esta guía esta enfocada en la instalación y configuración de security and com
 
 ## Pre-requisitos 📋
 
-_1. Docker para Linux. Para iniciar Docker, puede ejecutar systemctl start docker._
+1. VSI con las siguientes especificaciones mínimas:
 
-_2.Una clave de API de ID de servicio con permisos de acceso de lectura para los recursos que desea escanear._
+* Perfil de Red Hat Enterprise Linux, CentOS o Ubuntu : cx2-2x4(2 vCPU, 4 GB de RAM y 4 GBPS)
+* Volumen de arranque : 50 GB de espacio en disco.
 
-_3. VPC y/o VSI con las siguientes especificaciones:
-Perfil de Red Hat Enterprise Linux, CentOS o Ubuntu : cx2-2x4(2 vCPU, 4 GB de RAM y 4 GBPS)
-Volumen de arranque : 50 GB de espacio en disco._
+2. Docker para Linux. Para iniciar Docker, puede ejecutar systemctl start docker.
+
+3. Una clave de API de ID de servicio con permisos de acceso de lectura para los recursos que desea escanear.
 
 ## Crear las credenciales :key:
 
-Las credenciales se utilizan para permitir que el recopilador recopile información sobre sus recursos, evalúe sus configuraciones e inicie cualquier corrección necesaria.
+Las credenciales se utilizan para permitir que el recopilador tome información sobre sus recursos, evalúe sus configuraciones e inicie cualquier corrección necesaria.
 
  1. En la consola de IBM Cloud, haga clic en el icono **Menú** y seleccione **Seguridad y cumplimiento** para acceder al **Centro de seguridad y cumplimiento**.
- 2. En la navegación, haga clic en **Configurar**, luego en **Valores**  diríjase a **Credenciales**.
+ 2. En la navegación, haga clic en **Configurar**, luego en **Valores** diríjase a **Credenciales**.
  3. Haga clic en el icono **Nueva credencial**.
  4. Dé a su credencial un nombre y una descripción significativos.
  5. Seleccione **IBM Cloud**.
  6. Seleccione **Descubrimiento/Colección**.
- 7. Pegue su clave de API en el campo de clave de API de IBM. Para obtener ayuda para crear una clave de API consulte [ Descripción de las claves de API](https://cloud.ibm.com/docs/account?topic=account-manapikey). Tenga en cuenta que su clave de API debe tener permisos de acceso de lector a los recursos que desea escanear; la siguiente imagen ejemplifica los pasos 2 a 8.
+ 7. Pegue su clave de API en el campo de clave de **API de IBM**. Para obtener ayuda para crear una clave de API consulte [Descripción de las claves de API](https://cloud.ibm.com/docs/account?topic=account-manapikey). Tenga en cuenta que su clave de API debe tener permisos de acceso de lector a los recursos que desea escanear; la siguiente imagen ejemplifica los pasos 2 a 8.
  8. Verifique sus actualizaciones y haga clic en **Guardar**. La credencial se agrega a una lista de credenciales disponibles.
  
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/paso2.gif)
