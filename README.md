@@ -73,7 +73,7 @@ _**Nota**: Si no inicia sesión como usuario root, debe anteponer los siguientes
 [sudo] apt-get install docker-compose
 ```
 
-7. Transfiera el inititate_collector.sharchivo a su máquina virtual y luego cambie los permisos para permitir que se ejecute.
+7. Transfiera el inititate_collector.sh archivo a su máquina virtual y luego cambie los permisos para permitir que se ejecute.
 
 ```
 chmod +x initiate_collector.sh
@@ -83,15 +83,20 @@ chmod +x initiate_collector.sh
 ```
 ./initiate_collector.sh
 ```
+_Nota:En la siguiente imagen se ejemplifican los pasos 4 a 8,previamente ya se ha trasnferido e instalado el archivos a la maquina virtual.
+
+![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasosshcolector.gif)
 
 9. Cuando se le solicite, ingrese la siguiente información:
 
-La ruta de datos de su máquina host. Por ejemplo /root/folder_name/,.
-No, para indicar que no desea ejecutar un escaneo de Nmap.
+-La ruta de datos de su máquina host. Por ejemplo /root/folder_name/ .
 
-La clave de registro que anotó cuando descargó el inititate_collector.sh archivo de la interfaz de usuario del servicio.
+-Indique **No**, para indicar que no desea ejecutar un escaneo de Nmap.
 
-En la página Configurar> Configuración> Recopiladores del Centro de seguridad y cumplimiento, haga clic en Aprobar en la fila de la tabla que corresponde al recopilador con el que está trabajando.
+-Ingrese la clave de registro que anotó cuando descargó el inititate_collector.sh archivo de la interfaz de usuario del servicio. _(Paso 2 subindice 3)._
+
+En la página Configurar> Valores> Recopiladores del Centro de seguridad y cumplimiento, haga clic en Aprobar en la fila de la tabla que corresponde al recopilador con el que está trabajando. Debera obtener un resultado como el siguiente :
+
 
 ### 3.CREA UN ALCANCE
 
