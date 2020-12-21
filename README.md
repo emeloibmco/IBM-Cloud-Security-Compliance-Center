@@ -86,7 +86,7 @@ chmod +x initiate_collector.sh
 ```
 ./initiate_collector.sh
 ```
-_Nota:En la siguiente imagen se ejemplifican los pasos 4 a 8,previamente ya se ha trasnferido e instalado el archivos a la maquina virtual.
+_Nota:En la siguiente imagen se ejemplifican los pasos 4 a 8,previamente ya se ha trasnferido e instalado el archivo a la maquina virtual.
 
 ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasosshcolector.gif)
 
@@ -140,8 +140,11 @@ _Nota: 10-30 minutos después podra empezar a ver los resultados del escaneo rea
 Security and compliance Center le permite exportar los resultados que obtenido en sus diferentes exploraciones, por lo que puede visualizar estos datos en informes detallados en diferentes formatos.
 
 1.Si desea generar un informe o exportar la información,  puede dirigirse a evaluar>exploraciónes y seleccionar la exploración de la que quiere obtener más detalles.
+
 2.Haga clic en el boton "generar informe" se desplegara un menú.
+
 3. Seleccione el tipo de informe, formato, y los detalles de la información que quiere obtener.
+
 4. Haga clic en descargar
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/reporte.gif)
