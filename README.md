@@ -125,6 +125,10 @@ Para descubrir recursos, evaluar su configuración y validar su cumplimiento fre
 6. Seleccione la frecuencia a la que desea que se ejecute el escaneo.
 7. Seleccione cuándo desea que se detenga el escaneo. Las opciones incluyen nunca, un número específico de escaneos o en una fecha determinada.
 Haga clic en **Crear**.
+
+ ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasoexploración.gif)
+
+
 ```
 
 ## Autores ✒️
