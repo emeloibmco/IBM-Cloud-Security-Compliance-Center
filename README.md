@@ -1,7 +1,10 @@
 # IBM-Cloud-Security-Compliance-Center
 
-# GUÍA DE CONFIGURACIÓN Y HABILITACIÓN DE SECURITY AND COMPLIANCE CENTER
+IBM Cloud Security & Compliance Center le permite gestionar los controles de seguridad y cumplimiento directamente dentro de la plataforma de IBM Cloud. Puede ver sus posturas de seguridad y cumplimiento desde un panel de control unificado, permitiéndole de una manera fácil la automatización de políticas de seguridad, habilitar la gobernanza de la configuración en su cuenta y la detección de vulnerabilidades y amenazas.
 
+# GUÍA DE INSTALACIÓN Y CONFIGURACIÓN  DE SECURITY AND COMPLIANCE CENTER
+
+Esta guía esta enfocada en la instalación y configuración de security and compliance center para la recolección de datos, activación del panel de control, creación de ambitos, creación de exploraciones, generación de informes y exportación de información.
 
 ### Indice
 1. [Pre-requisitos](#Pre-requisitos-)
