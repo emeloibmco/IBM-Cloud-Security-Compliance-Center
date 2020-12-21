@@ -128,6 +128,23 @@ Haga clic en **Crear**.
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasoexploración.gif)
 
+_Nota: 10-30 minutos después podra empezar a ver los resultados del escaneo realizado en la interfaz de Security and Compliance Center, se recomienda revisar la pestaña en el menu de navegación **panel de control**, ó para obtener información más detallada puede dirigirse a evaluar>exploraciónes y seleccionar la exploración de la que quiere obtener más detalles. 
+
+ ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/final.gif)
+
+### 5. Genere un informe
+
+Security and compliance Center le permite exportar los resultados que obtenido en sus diferentes exploraciones, por lo que puede visualizar estos datos en informes detallados en diferentes formatos.
+
+1.Si desea generar un informe o exportar la información,  puede dirigirse a evaluar>exploraciónes y seleccionar la exploración de la que quiere obtener más detalles.
+2.Haga clic en el boton "generar informe" se desplegara un menú.
+3. Seleccione el tipo de informe, formato, y los detalles de la información que quiere obtener.
+4. Haga clic en descargar
+
+ ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/reporte.gif)
+
+5. Disfrute de las capacidades de seguridad que agrega IBM Cloud Security Compliance a su cuenta.
+
 
 ```
 
