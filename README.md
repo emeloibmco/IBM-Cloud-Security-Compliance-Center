@@ -6,7 +6,7 @@
 ### Indice
 1. [Pre-requisitos](#Pre-requisitos-)
 2. [Crear las credenciales](#Crear-las-credenciales-)
-3. [instala un colector/recopilador](#instala-un-colector/recopilador-)
+3. [Instala un colector/recopilador](#Instala-un-colector/recopilador-)
 4. [Crea un alcance](#Crea-un-alcance-)
 5. [Programe un escaneo](#Programe-un-Escaneo-)
 6. [Genere un informe](#Genere-un-informe-)
@@ -100,7 +100,7 @@ En la página Configurar> Valores> Recopiladores del Centro de seguridad y cumpl
 
 ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/resultado.png)
 
-### Crea un alcance
+## Crea un alcance
 
 Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoque de sus escaneos a un entorno, región o incluso recurso específico. Al crear alcances, puede determinar su puntuación de seguridad y cumplimiento en un área específica de su negocio.
 
@@ -114,7 +114,7 @@ Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoq
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasoambito.gif)
 
-### Programe un escaneo
+## Programe un escaneo
 
 Para descubrir recursos, evaluar su configuración y validar su cumplimiento frente a un perfil predefinido, puede programar un análisis de validación.
 
@@ -133,7 +133,7 @@ _Nota: 10-30 minutos después podra empezar a ver los resultados del escaneo rea
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/final.gif)
 
-### Genere un informe
+## Genere un informe
 
 Security and compliance Center le permite exportar los resultados que obtenido en sus diferentes exploraciones, por lo que puede visualizar estos datos en informes detallados en diferentes formatos.
 
