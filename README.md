@@ -10,7 +10,7 @@ Esta guía esta enfocada en la instalación y configuración de security and com
 1. [Pre-requisitos](#Pre-requisitos-)
 2. [Crear las credenciales](#crear-las-credenciales-key)
 3. [Instalar un colector/recopilador](#instalar-un-colectorrecopilador-hammer)
-4. [Crear un alcance](#Crear-un-alcance-)
+4. [Crear un alcance](#crear-un-alcance)
 5. [Programe un escaneo](#programe-un-escaneo-)
 6. [Genere un informe](#genere-un-informe-newspaper)
 
@@ -54,7 +54,6 @@ Un recopilador es un módulo de software empaquetado como una imagen de Docker. 
 5. En su terminal, inicie sesión en su máquina virtual usando SSH.
 ```
 ssh <username>@<hostname_or_IP_address>:
-
 ```
 
 _**Nota**: Si no inicia sesión como usuario root, debe anteponer los siguientes comandos con sudo._
