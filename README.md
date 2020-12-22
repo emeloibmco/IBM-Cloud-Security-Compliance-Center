@@ -8,11 +8,11 @@ Esta guía esta enfocada en la instalación y configuración de security and com
 
 ### Indice
 1. [Pre-requisitos](#Pre-requisitos-)
-2. [Crear las credenciales](#Crear-las-credenciales-)
-3. [Instala un colector/recopilador](#Instala-un-colector/recopilador-)
-4. [Crea un alcance](#Crea-un-alcance-)
-5. [Programe un escaneo](#Programe-un-escaneo-)
-6. [Genere un informe](#Genere-un-informe-)
+2. [Crear las credenciales](#crear-las-credenciales-key)
+3. [Instalar un colector/recopilador](#instalar-un-colectorrecopilador-hammer)
+4. [Crear un alcance](#Crear-un-alcance-)
+5. [Programe un escaneo](#programe-un-escaneo-)
+6. [Genere un informe](#genere-un-informe-newspaper)
 
 ## Pre-requisitos 📋
 
@@ -40,20 +40,20 @@ Las credenciales se utilizan para permitir que el recopilador tome información 
  
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/paso2.gif)
 
-### Instala un colector/recopilador :hammer:
+## Instalar un colector/recopilador :hammer:
 
 Un recopilador es un módulo de software empaquetado como una imagen de Docker. Se instala "a la vista" de su entorno, donde puede tener acceso de red a sus recursos de TI. 
 
 1. En la página **Configurar** de clic en **Configuración** y luego en **Recopiladores del Centro de seguridad y cumplimiento**, haga clic en **Crear**.
 2. Dale a tu colecctor un nombre y una descripción significativos. Haga clic en **Crear**.
-3. Descargue el initiate_collector.sh archivo del recopilador que creó.
+3. Descargue el **initiate_collector.sh** archivo del recopilador que creó.
 4. En la tabla de recopiladores, haga clic en el nombre del recopilador que desea registrar. La fila de la tabla se expande para proporcionar más información. Asegúrese de anotar también la clave de registro para un paso posterior.
 
 ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasorecopilador.gif)
 
 5. En su terminal, inicie sesión en su máquina virtual usando SSH.
 ```
-_ssh <username>@<hostname_or_IP_address>:_
+ssh <username>@<hostname_or_IP_address>:
 
 ```
 
@@ -70,7 +70,7 @@ apt-get update
 apt-get install docker-compose
 ```
 
-7. Transfiera el inititate_collector.sh archivo a su máquina virtual y luego cambie los permisos para permitir que se ejecute.
+7. Transfiera el **inititate_collector.sh** archivo a su máquina virtual y luego cambie los permisos para permitir que se ejecute.
 
 ```
 chmod +x initiate_collector.sh
@@ -80,23 +80,23 @@ chmod +x initiate_collector.sh
 ```
 ./initiate_collector.sh
 ```
-En la siguiente imagen se ejemplifican los pasos 4 a 8,previamente ya se ha trasnferido e instalado el archivo a la máquina virtual.
+En la siguiente imagen se ejemplifican los pasos 4 a 8, previamente ya se ha trasnferido e instalado el archivo a la máquina virtual.
 
 ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasosshcolector.gif)
 
 9. Cuando se le solicite, ingrese la siguiente información:
 
--La ruta de datos de su máquina host. Por ejemplo /root/folder_name/ .
+* La ruta de datos de su máquina host. Por ejemplo /root/folder_name/ .
 
--Indique **No**, para indicar que no desea ejecutar un escaneo de Nmap.
+* Indique **No**, para indicar que no desea ejecutar un escaneo de Nmap.
 
--Ingrese la clave de registro que anotó cuando descargó el inititate_collector.sh archivo de la interfaz de usuario del servicio. _(Paso 2 subindice 3)._
+* Ingrese la clave de registro que anotó cuando descargó el inititate_collector.sh archivo de la interfaz de usuario del servicio. _(Paso 2 subindice 3)._
 
 En la página **Configurar** diríjase a **Valores Recopiladores del Centro de seguridad y cumplimiento**, haga clic en **Aprobar** en la fila de la tabla que corresponde al recopilador con el que está trabajando. Deberá obtener un resultado como el siguiente:
 
 ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/resultado.png)
 
-## Crea un alcance 
+## Crear un alcance 
 
 Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoque de sus escaneos a un entorno, región o incluso a un recurso específico. Al crear alcances, puede determinar su puntuación de seguridad y cumplimiento en un área específica de su negocio.
 
@@ -124,7 +124,7 @@ Para descubrir recursos, evaluar su configuración y validar su cumplimiento fre
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasoexploración.gif)
 
-_Nota: 10-30 minutos después podra empezar a ver los resultados del escaneo realizado en la interfaz de Security and Compliance Center, se recomienda revisar la pestaña en el menu de navegación **Panel de control**, ó para obtener información más detallada puede dirigirse a evaluar>exploraciónes y seleccionar la exploración de la que quiere obtener más detalles. 
+**Nota:** De 10 a 30 minutos después podrá empezar a ver los resultados del escaneo realizado en la interfaz de Security and Compliance Center, se recomienda revisar la pestaña en el menu de navegación **Panel de control**, ó para obtener información más detallada puede dirigirse a **Evaluar**, luego en **Exploraciónes** seleccione la exploración de la que quiere obtener más detalles. 
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/final.gif)
 
