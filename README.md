@@ -137,15 +137,26 @@ Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoq
 
 Para descubrir recursos, evaluar su configuración y validar su cumplimiento frente a un perfil predefinido, puede programar un análisis de validación.
 
-1. En la página **Evaluar** vaya a **Exploraciiones programados del Centro de seguridad y cumplimiento**, haga clic en **Exploración Programada**. Se abre un panel lateral.
-2. Dé a su escaneo un nombre y una descripción significativos.
-3. Seleccione **Validación**.
-4. Seleccione el alcance que creó en el paso anterior.
-5. Seleccione uno de los perfiles predefinidos y haga clic en **Siguiente**.
-6. Seleccione la frecuencia a la que desea que se ejecute el escaneo.
-7. Seleccione cuándo desea que se detenga el escaneo. Las opciones incluyen nunca, un número específico de escaneos o en una fecha determinada. Haga clic en **Crear**.
+ 1. En la consola de IBM Cloud, haga clic en el icono de ```Menú``` y seleccione ```Security and Compliance / Seguridad y cumplimiento```.
+ 2. En la navegación, haga clic en ```Configure / Configurar```, luego diríjase a ```Scans / Escaneos```.
+ 3. Haga clic en el icono ```Schedule / Programar```. Y complete lo siguiente:
+ * ```Name / Nombre```: Seleccione un nombre para su escaneo.
+ * ```Description / Descripción```: Opcionalmente proporcione una descripción para su servicio.
+ * ```Scan type / Tipo de escaneo```: Seleccione la opción Validation.
+ * ```Scope / Alcance```: Seleccione el alcance realizado en el paso anterior.
+ * ```Profile / Perfil```: Seleccione el perfil que desea escanear. (En este caso se presentan los resultados del escaneo del perfil **IBM Cloud Best Practices Controls 1.0** y el perfil **CIS IBM Foundations Benchmark 1.0.0** )
+ 
+ A continuación de click en siguiente y complete:
+ 
+* ```Remediation preference / Preferencia de remediación```: Seleccione la opción automatico.
+* ```Frecuency / Frecuencia```: Ingrese la frecuencia con la que quiere que se realice el escaneo.
+* ```Ends / Termina```: Seleccione cuando desea que finalice el escaneo.
 
- ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasoexploración.gif)
+ 4. Verifique sus configuraciones y haga clic en ```Create / Crear```.
+
+<p align="center">
+<img width="800" alt="img8" src=https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/scan-best.gif>
+</p>
 
 **Nota:** De 10 a 30 minutos después podrá empezar a ver los resultados del escaneo realizado en la interfaz de Security and Compliance Center, se recomienda revisar la pestaña en el menu de navegación **Panel de control**, ó para obtener información más detallada puede dirigirse a **Evaluar**, luego en **Exploraciónes** seleccione la exploración de la que quiere obtener más detalles. 
 
