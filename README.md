@@ -198,7 +198,7 @@ Para descubrir recursos, evaluar su configuración y validar su cumplimiento fre
 
 ## Genere un informe :newspaper:
 
-Security and Compliance Center le permite exportar los resultados que ha obtenido en sus diferentes exploraciones, por lo que puede visualizar estos datos en informes detallados en diferentes formatos. Si desea generar un informe realice los siguientes pasos:
+Security and Compliance Center le permite exportar los resultados que ha obtenido en sus diferentes escaneos, por lo que puede visualizar estos datos mediante informes detallados en diferentes formatos. Si desea generar un informe realice los siguientes pasos:
 <br />
 
 1. En la página ```Security and Compliance/Seguridad y cumplimiento```, visualice la sección ```Assess``` y de click en la pestaña ```Scan results```.
