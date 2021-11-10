@@ -208,7 +208,7 @@ Security and compliance Center le permite exportar los resultados que ha obtenid
 
 4. Haga clic en **Descargar**.
 
- ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/reporte.gif)
+ ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/GenerarInforme.gif)
 
 5. Disfrute de las capacidades de seguridad que agrega IBM Cloud Security Compliance a su cuenta.
 
