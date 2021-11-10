@@ -198,19 +198,26 @@ Para descubrir recursos, evaluar su configuración y validar su cumplimiento fre
 
 ## Genere un informe :newspaper:
 
-Security and compliance Center le permite exportar los resultados que ha obtenido en sus diferentes exploraciones, por lo que puede visualizar estos datos en informes detallados en diferentes formatos.
+Security and Compliance Center le permite exportar los resultados que ha obtenido en sus diferentes exploraciones, por lo que puede visualizar estos datos en informes detallados en diferentes formatos. Si desea generar un informe realice los siguientes pasos:
+<br />
 
-1. Si desea generar un informe o exportar la información, puede dirigirse a **Evaluar** y al ingresar en **Exploraciónes** debe seleccionar la exploración de la que quiere obtener más detalles.
+1. En la página ```Security and Compliance/Seguridad y cumplimiento```, visualice la sección ```Assess``` y de click en la pestaña ```Scan results```.
+<br />
 
-2. Haga clic en el boton **Generar informe**, se desplegará un menú.
+2. Haga clic en el resultado que desea visualizar con detalle.
+<br />
 
-3. Seleccione el tipo de informe, formato, y los detalles de la información que quiere obtener.
+3. Espere mientras cargan los datos y posteriormente de click en la opción ```Download report```.
+<br />
 
-4. Haga clic en **Descargar**.
+4. Seleccione el tipo de informe, formato, y los detalles de la información que quiere obtener.
+<br />
+
+5. Haga clic en el botón ```Download/Descargar```.
+<br />
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/GenerarInforme.gif)
 
-5. Disfrute de las capacidades de seguridad que agrega IBM Cloud Security Compliance a su cuenta.
 
 <br />
 
