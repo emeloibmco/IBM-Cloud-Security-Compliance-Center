@@ -29,16 +29,23 @@ Esta guía esta enfocada en la instalación y configuración de security and com
 
 Las credenciales se utilizan para permitir que el recopilador tome información sobre sus recursos, evalúe sus configuraciones e inicie cualquier corrección necesaria.
 
- 1. En la consola de IBM Cloud, haga clic en el icono **Menú** y seleccione **Seguridad y cumplimiento** para acceder al **Centro de seguridad y cumplimiento**.
- 2. En la navegación, haga clic en **Configurar**, luego en **Valores** diríjase a **Credenciales**.
- 3. Haga clic en el icono **Nueva credencial**.
- 4. Dé a su credencial un nombre y una descripción significativos.
- 5. Seleccione **IBM Cloud**.
- 6. Seleccione **Descubrimiento/Colección**.
- 7. Pegue su clave de API en el campo de clave de **API de IBM**. Para obtener ayuda para crear una clave de API consulte [Descripción de las claves de API](https://cloud.ibm.com/docs/account?topic=account-manapikey). Tenga en cuenta que su clave de API debe tener permisos de acceso de lector a los recursos que desea escanear; la siguiente imagen ejemplifica los pasos 2 a 8.
- 8. Verifique sus actualizaciones y haga clic en **Guardar**. La credencial se agrega a una lista de credenciales disponibles.
+ 1. En la consola de IBM Cloud, haga clic en el icono de ```Menú``` y seleccione ```Security and Compliance / Seguridad y cumplimiento```.
+ 2. En la navegación, haga clic en ```Configure / Configurar```, luego diríjase a ```Credentials / Credenciales```.
+ 3. Haga clic en el icono ```Create / Create```. Y complete lo siguiente:
+ * ```Name / Nombre```: Seleccione un nombre para su credencial.
+ * ```Credentials / Credenciales```: Opcionalmente proporcione una descripción para su servicio.
+ * ```Purpose / Proposito```: Seleccione la opción Discovery/Collection.
  
- ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/paso2.gif)
+ A continuación de click en siguiente y complete:
+* ```Credential type / Tipo de credencial```: Seleccione IBM Cloud.
+* ```API Key```: Ingrese la clave API de su servicio. Para obtener ayuda para crear una clave de API consulte [Descripción de las claves de API](https://cloud.ibm.com/docs/account?topic=account-manapikey). Tenga en cuenta que su clave de API debe tener permisos de acceso de lector a los recursos que desea escanear.
+
+ 4. Verifique sus configuraciones y haga clic en ```Create / Crear```. La credencial se agrega a una lista de credenciales disponibles.
+
+<p align="center">
+<img width="800" alt="img8" src=https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/main/Imagenes/security.gif>
+</p>
+
 
 ## Instalar un colector/recopilador :hammer:
 
