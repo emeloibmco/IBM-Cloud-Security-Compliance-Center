@@ -14,7 +14,7 @@ Esta guía esta enfocada en la instalación y configuración de security and com
 1. [Pre-requisitos](#Pre-requisitos-)
 2. [Crear las credenciales](#crear-las-credenciales-key)
 3. [Instalar un colector/recopilador](#instalar-un-colectorrecopilador-hammer)
-4. [Crear un alcance](#crear-un-alcance)
+4. [Crear un alcance](#crear-un-alcance-white_flag)
 5. [Programe un escaneo](#programe-un-escaneo-)
 6. [Genere un informe](#genere-un-informe-newspaper)
 <br />
@@ -133,19 +133,33 @@ En la página  ```Configure / Configurar```, diríjase a ```Collectors / Colecto
 
 <br />
 
-## Crear un alcance 
+## Crear un alcance :white_flag:
 
-Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoque de sus escaneos a un entorno, región o incluso a un recurso específico. Al crear alcances, puede determinar su puntuación de seguridad y cumplimiento en un área específica de su negocio.
+Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoque de sus escaneos a un entorno, región o incluso a un recurso específico. Al crear alcances, puede determinar su puntuación de seguridad y cumplimiento en un área específica de su negocio. Para generar un alcance o scope, complete los siguientes pasos:
+<br />
 
-1. En la página **Ámbitos del Centro de seguridad y cumplimiento**, haga clic en el icono **Nuevo ámbito**.
-2. Dé a su alcance un nombre y una descripción significativos.
-3. Seleccione un entorno.
-4. Seleccione el recopilador que desea utilizar.
-5. Seleccione las credenciales que brindan acceso a los recursos que desea escanear.
-6. Haga clic en **Siguiente**.
-7. Seleccione los grupos de recursos que desea analizar y haga clic en **Crear**.
+1. En la página ```Security and Compliance/Seguridad y cumplimiento```, visualice la sección ```Manage Posture``` y de click en la pestaña ```Configure/Configurar```.
+<br />
 
- ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasoambito.gif)
+2. En la pestaña de ```Configure/Configurar``` seleccione la opción ```Scopes/Alcances```.
+<br />
+
+3. Presione el botón ```Create +/Crear +``` y complete los campos solicitados de la siguiente manera:
+   
+   **Details/Detalles**
+   * ```Name/Nombre```: asigne un nombre exclusivo para el alcance.
+   
+   **Environment/Ambiente**
+   * ```Environment/Ambiente```: seleccione IBM Cloud.
+   * ```Credentials/Credenciales```: seleccione las credenciales que va a utilizar.
+   
+   **Collectors/Colectores**
+   * Seleccione el colector que desea utilizar.
+   
+   Para finalizar de click en el botón ```Create/Crear```
+<br />
+
+ ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/CrearScope.gif)
 
 <br />
 
@@ -173,10 +187,12 @@ Para descubrir recursos, evaluar su configuración y validar su cumplimiento fre
 <p align="center">
 <img width="800" alt="img8" src=https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/scan-best.gif>
 </p>
+<br />
 
-**Nota:** De 10 a 30 minutos después podrá empezar a ver los resultados del escaneo realizado en la interfaz de Security and Compliance Center, se recomienda revisar la pestaña en el menu de navegación **Panel de control**, ó para obtener información más detallada puede dirigirse a **Evaluar**, luego en **Exploraciónes** seleccione la exploración de la que quiere obtener más detalles. 
+5. Espere de 10 a 30 minutos se completa el escaneo. Para ver los resultados del escaneo de click en la pestaña ```Assess``` ➡ ```Scan results``` y seleccione el resultado de escaneo que desea visualizar. Allí prodrá explorar con más detalle los resultados obtenidos.
+<br /> 
 
- ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/final.gif)
+ ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/ResultadosEscaneo.gif)
 
 <br />
 
