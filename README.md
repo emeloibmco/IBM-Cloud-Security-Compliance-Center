@@ -43,7 +43,7 @@ Las credenciales se utilizan para permitir que el recopilador tome información 
  4. Verifique sus configuraciones y haga clic en ```Create / Crear```. La credencial se agrega a una lista de credenciales disponibles.
 
 <p align="center">
-<img width="800" alt="img8" src=https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/main/Imagenes/security.gif>
+<img width="800" alt="img8" src=https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/security.gif>
 </p>
 
 
