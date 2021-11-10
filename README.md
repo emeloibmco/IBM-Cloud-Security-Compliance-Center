@@ -33,7 +33,7 @@ Las credenciales se utilizan para permitir que el recopilador tome información 
  2. En la navegación, haga clic en ```Configure / Configurar```, luego diríjase a ```Credentials / Credenciales```.
  3. Haga clic en el icono ```Create / Create```. Y complete lo siguiente:
  * ```Name / Nombre```: Seleccione un nombre para su credencial.
- * ```Credentials / Credenciales```: Opcionalmente proporcione una descripción para su servicio.
+ * ```Description / Descripción```: Opcionalmente proporcione una descripción para su servicio.
  * ```Purpose / Proposito```: Seleccione la opción Discovery/Collection.
  
  A continuación de click en siguiente y complete:
@@ -51,12 +51,25 @@ Las credenciales se utilizan para permitir que el recopilador tome información 
 
 Un recopilador es un módulo de software empaquetado como una imagen de Docker. Se instala "a la vista" de su entorno, donde puede tener acceso de red a sus recursos de TI. 
 
-1. En la página **Configurar** de clic en **Configuración** y luego en **Recopiladores del Centro de seguridad y cumplimiento**, haga clic en **Crear**.
-2. Dale a tu colecctor un nombre y una descripción significativos. Haga clic en **Crear**.
-3. Descargue el **initiate_collector.sh** archivo del recopilador que creó.
-4. En la tabla de recopiladores, haga clic en el nombre del recopilador que desea registrar. La fila de la tabla se expande para proporcionar más información. Asegúrese de anotar también la clave de registro para un paso posterior.
+ 1. En la consola de IBM Cloud, haga clic en el icono de ```Menú``` y seleccione ```Security and Compliance / Seguridad y cumplimiento```.
+ 2. En la navegación, haga clic en ```Configure / Configurar```, luego diríjase a ```Collectors / Colectores```.
+ 3. Haga clic en el icono ```Create / Create```. Y complete lo siguiente:
+ * ```Name / Nombre```: Seleccione un nombre para su colector.
+ * ```Description / Descripción```: Opcionalmente proporcione una descripción para su servicio.
+  A continuación de click en siguiente y complete:
+ * ```Managed by / Manejado por```: Elija la opción Customer.
+ * ```Endpoint type / Tipo Punto Final```: Elija la opción Public.
+  
+<p align="center">
+<img width="800" alt="img8" src=https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/collector.gif>
+</p>
 
-![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasorecopilador.gif)
+4. Descargue el archivo **initiate_collector.sh** del recopilador que creó.
+5. En la tabla de recopiladores, haga clic en el nombre del recopilador que desea registrar. La fila de la tabla se expande para proporcionar más información. Asegúrese de anotar también la clave de registro para un paso posterior.
+
+<p align="center">
+<img width="800" alt="img8" src=https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/collectorsh.PNG>
+</p>
 
 5. En su terminal, inicie sesión en su máquina virtual usando SSH.
 ```
