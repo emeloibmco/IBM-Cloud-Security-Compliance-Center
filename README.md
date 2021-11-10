@@ -2,9 +2,13 @@
 
 IBM Cloud Security & Compliance Center le permite gestionar los controles de seguridad y cumplimiento directamente dentro de la plataforma de IBM Cloud. Puede ver sus posturas de seguridad y cumplimiento desde un panel de control unificado, permitiéndole de una manera fácil la automatización de políticas de seguridad, habilitar la gobernanza de la configuración en su cuenta y la detección de vulnerabilidades y amenazas.
 
+<br />
+
 # Guía de instalación y configuración de security and compliance center :hammer:
 
 Esta guía esta enfocada en la instalación y configuración de security and compliance center para la recolección de datos, activación del panel de control, creación de ambitos, creación de exploraciones, generación de informes y exportación de información.
+
+<br />
 
 ### Indice
 1. [Pre-requisitos](#Pre-requisitos-)
@@ -13,17 +17,21 @@ Esta guía esta enfocada en la instalación y configuración de security and com
 4. [Crear un alcance](#crear-un-alcance)
 5. [Programe un escaneo](#programe-un-escaneo-)
 6. [Genere un informe](#genere-un-informe-newspaper)
+<br />
 
 ## Pre-requisitos 📋
 
 1. VSI con las siguientes especificaciones mínimas:
 
-* Perfil de Red Hat Enterprise Linux, CentOS o Ubuntu : cx2-2x4(2 vCPU, 4 GB de RAM y 4 GBPS)
-* Volumen de arranque : 50 GB de espacio en disco.
+  * Perfil de Red Hat Enterprise Linux, CentOS o Ubuntu : cx2-2x4(2 vCPU, 4 GB de RAM y 4 GBPS)
+  * Volumen de arranque : 50 GB de espacio en disco.
+<br />
 
 2. Docker para Linux. Para iniciar Docker, puede ejecutar systemctl start docker.
+<br />
 
 3. Una clave de API de ID de servicio con permisos de acceso de lectura para los recursos que desea escanear.
+<br />
 
 ## Crear las credenciales :key:
 
@@ -35,6 +43,7 @@ Las credenciales se utilizan para permitir que el recopilador tome información 
  * ```Name / Nombre```: Seleccione un nombre para su credencial.
  * ```Description / Descripción```: Opcionalmente proporcione una descripción para su servicio.
  * ```Purpose / Proposito```: Seleccione la opción Discovery/Collection.
+ <br />
  
  A continuación de click en siguiente y complete:
 * ```Credential type / Tipo de credencial```: Seleccione IBM Cloud.
@@ -46,6 +55,7 @@ Las credenciales se utilizan para permitir que el recopilador tome información 
 <img width="800" alt="img8" src=https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/security.gif>
 </p>
 
+<br />
 
 ## Instalar un colector/recopilador :hammer:
 
@@ -67,6 +77,8 @@ Verifique sus configuraciones y haga clic en ```Create / Crear```
 <p align="center">
 <img width="800" alt="img8" src=https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/collector.gif>
 </p>
+
+<br />
 
 4. Descargue el archivo **initiate_collector.sh** del recopilador que creó.
 5. En la tabla de recopiladores, haga clic en el nombre del recopilador que desea registrar. La fila de la tabla se expande para proporcionar más información. Asegúrese de anotar también la clave de registro para un paso posterior.
@@ -119,6 +131,8 @@ En la página  ```Configure / Configurar```, diríjase a ```Collectors / Colecto
 
 ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/resultado.png)
 
+<br />
+
 ## Crear un alcance 
 
 Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoque de sus escaneos a un entorno, región o incluso a un recurso específico. Al crear alcances, puede determinar su puntuación de seguridad y cumplimiento en un área específica de su negocio.
@@ -132,6 +146,8 @@ Cuando trabaja con el Centro de seguridad y cumplimiento, puede limitar el enfoq
 7. Seleccione los grupos de recursos que desea analizar y haga clic en **Crear**.
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/pasoambito.gif)
+
+<br />
 
 ## Programe un escaneo 🚀
 
@@ -162,6 +178,8 @@ Para descubrir recursos, evaluar su configuración y validar su cumplimiento fre
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/final.gif)
 
+<br />
+
 ## Genere un informe :newspaper:
 
 Security and compliance Center le permite exportar los resultados que ha obtenido en sus diferentes exploraciones, por lo que puede visualizar estos datos en informes detallados en diferentes formatos.
@@ -178,5 +196,7 @@ Security and compliance Center le permite exportar los resultados que ha obtenid
 
 5. Disfrute de las capacidades de seguridad que agrega IBM Cloud Security Compliance a su cuenta.
 
+<br />
+
 ## Autores ✒️
-Javier Jiménez
+Equipo *IBM Cloud Tech Sales Colombia*.
