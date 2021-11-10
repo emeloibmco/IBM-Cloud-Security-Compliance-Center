@@ -56,9 +56,13 @@ Un recopilador es un módulo de software empaquetado como una imagen de Docker. 
  3. Haga clic en el icono ```Create / Create```. Y complete lo siguiente:
  * ```Name / Nombre```: Seleccione un nombre para su colector.
  * ```Description / Descripción```: Opcionalmente proporcione una descripción para su servicio.
+ * 
   A continuación de click en siguiente y complete:
+  
  * ```Managed by / Manejado por```: Elija la opción Customer.
  * ```Endpoint type / Tipo Punto Final```: Elija la opción Public.
+
+Verifique sus configuraciones y haga clic en ```Create / Crear```
   
 <p align="center">
 <img width="800" alt="img8" src=https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/collector.gif>
@@ -111,7 +115,7 @@ En la siguiente imagen se ejemplifican los pasos 4 a 8, previamente ya se ha tra
 
 * Ingrese la clave de registro que anotó cuando descargó el inititate_collector.sh archivo de la interfaz de usuario del servicio. _(Paso 2 subindice 3)._
 
-En la página **Configurar** diríjase a **Valores Recopiladores del Centro de seguridad y cumplimiento**, haga clic en **Aprobar** en la fila de la tabla que corresponde al recopilador con el que está trabajando. Deberá obtener un resultado como el siguiente:
+En la página  ```Configure / Configurar```, diríjase a ```Collectors / Colectores```, haga clic en ```Aprobar``` en la fila de la tabla que corresponde al recopilador con el que está trabajando. Deberá obtener un resultado como el siguiente:
 
 ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/securitycenter/resultado.png)
 
