@@ -56,7 +56,7 @@ Un recopilador es un módulo de software empaquetado como una imagen de Docker. 
  3. Haga clic en el icono ```Create / Create```. Y complete lo siguiente:
  * ```Name / Nombre```: Seleccione un nombre para su colector.
  * ```Description / Descripción```: Opcionalmente proporcione una descripción para su servicio.
- * 
+
   A continuación de click en siguiente y complete:
   
  * ```Managed by / Manejado por```: Elija la opción Customer.
