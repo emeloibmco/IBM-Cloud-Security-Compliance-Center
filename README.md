@@ -189,7 +189,7 @@ Para descubrir recursos, evaluar su configuración y validar su cumplimiento fre
 </p>
 <br />
 
-5. Espere de 10 a 30 minutos mientras se completa el escaneo. Para ver los resultados del escaneo de click en la pestaña ```Assess``` ➡ ```Scan results``` y seleccione el resultado de escaneo que desea visualizar. Allí prodrá explorar con más detalle los resultados obtenidos.
+5. Espere de 10 a 30 minutos mientras se completa el escaneo. Para ver los resultados del escaneo de click en la pestaña ```Assess``` ➡ ```Scan results``` y seleccione el resultado de escaneo que desea visualizar. Allí podrá explorar con más detalle los resultados obtenidos.
 <br /> 
 
  ![image](https://github.com/emeloibmco/IBM-Cloud-Security-Compliance-Center/blob/master/Imagenes/ResultadosEscaneo.gif)
